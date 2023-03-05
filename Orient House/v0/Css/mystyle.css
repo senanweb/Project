@@ -1,0 +1,83 @@
+/* roles */
+body{
+    background-color: #a3a3a3;
+}
+
+/* roles */
+/* ========================= */
+/* ==================== */
+/* ========================= */
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) 
+{ 
+    body{background-color: #ee5252;}
+    .container{
+        width: 500;
+        height: 50px;
+        margin: 10px;
+        background-color: black;
+    }
+    .navbar h3{color: white;margin: 0;}
+    .navbar .left{width: 75%;background-color: #52eee9;float: right;}
+    .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) 
+{ 
+    body{background-color: #ebee52;}
+    .container{
+        width: 650;
+        height: 50px;
+        margin: 10px;
+        background-color: black;
+    }
+    h3{color: white;margin: 0;}
+    .navbar .left{width: 75%;background-color: #52eee9;float: right;}
+    .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) 
+{ 
+    body{background-color: #a5ee52;}
+    .container{
+        width: 650;
+        height: 50px;
+        margin: 10px;
+        background-color: black;
+    }
+    h3{color: white;margin: 0;}
+    .navbar .left{width: 75%;background-color: #52eee9;float: right;}
+    .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{ 
+    body{background-color: #52eee9;}
+    .container{
+        width: 650;
+        height: 50px;
+        margin: 10px;
+        background-color: black;
+    }
+    h3{color: white;margin: 0;}
+    .navbar .left{width: 75%;background-color: #52eee9;float: right;}
+    .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+}
+
+/*  Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px)
+ { 
+    body{background-color: #ee52c2;}
+    .container{
+        width: 650;
+        height: 50px;
+        margin: 10px;
+        background-color: black;
+    }
+    h3{color: white;margin: 0;}
+    .navbar .left{width: 75%;background-color: #52eee9;float: right;}
+    .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+}
