@@ -1,7 +1,5 @@
 /* roles */
-body{
-    background-color: #a3a3a3;
-}
+
 
 /* roles */
 /* ========================= */
@@ -11,16 +9,16 @@ body{
 @media (max-width: 575.98px) 
 { 
     body{background-color: #ee5252;}
-    .container{
-        width: 500;
-        height: 50px;
-        margin: 10px;
-        background-color: black;
-    }
-    .navbar h3{color: white;margin: 0;}
-    .navbar .left{width: 75%;background-color: #52eee9;float: right;}
-    .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+    .container{width: 500px;height: 350px; background-color: goldenrod;margin-top: 5px;}
+    .navbar{width: 450px; background-color: brown;margin-left: 10px;margin-top: 5px;}
+    .slider{width: 450px; height: 50px;background-color: blue;margin-left: 10px;margin-top: 5px;}
+    .home{width: 450px; height: 50px;background-color: rgb(79, 79, 143);margin-left: 10px;margin-top: 5px;}
+    .menu{width: 450px; height: 50px;background-color: rgb(40, 82, 73);margin-left: 10px;margin-top: 5px;}
+    .contact{width: 450px; height: 50px;background-color: rgb(63, 24, 65);margin-left: 10px;margin-top: 5px;margin-bottom: 5px;}
 }
+/* =============== */
+/* =============== */
+/* =============== */
 
  /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) 
@@ -35,6 +33,7 @@ body{
     h3{color: white;margin: 0;}
     .navbar .left{width: 75%;background-color: #52eee9;float: right;}
     .navbar .right{width: 25%;background-color: #ebee52;float: left;}
+    
 }
 
 /*  Medium devices (tablets, 768px and up) */
