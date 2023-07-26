@@ -1,8 +1,8 @@
 <!-- 22 -->
-<div class="footer">
-    This is Footer
-</div>
+    <div class="footer">
+        This is Footer
+    </div>
 
-</body>
+    </body>
 
-</html>
+</html> 
