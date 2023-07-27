@@ -3,6 +3,6 @@
         This is Footer
     </div>
 
-    </body>
+</body>
 
-</html> 
+</html>
